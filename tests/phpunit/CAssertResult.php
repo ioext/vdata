@@ -1,6 +1,6 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 
@@ -12,7 +12,7 @@ namespace dekuan\vdata;
 
 /***
  *	Class CAssertResult
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class CAssertResult
 {

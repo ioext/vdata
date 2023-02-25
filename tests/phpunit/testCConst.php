@@ -1,6 +1,6 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 /**
@@ -13,7 +13,7 @@ namespace dekuan\vdata;
 
 /***
  *	Class testCConst
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class testCConst extends \PHPUnit\Framework\TestCase
 {

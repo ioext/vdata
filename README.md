@@ -1,6 +1,6 @@
 # vdata
 vdata protocol is a perfectly total solution for HTTP RPC Call. It's free and open source. And, it's the best way for calling and responding HTTP services. 
-With pretty vdata, you can easily call HTTP services with required version and timeout control. And definitely, Cross-origin resource sharing(CORS) call is okay. vdata client were now wrote in PHP and Javascript, for more features, please view [documentation](http://vdata.dekuan.org/docs).
+With pretty vdata, you can easily call HTTP services with required version and timeout control. And definitely, Cross-origin resource sharing(CORS) call is okay. vdata client were now wrote in PHP and Javascript, for more features, please view [documentation](http://vdata.ioext.org/docs).
 
 
 ## Features
@@ -41,7 +41,7 @@ vdata is JSON-based protocol, when you call a HTTP service played by vdata proto
 
 ## For more information
 
-Please view [documentation](http://vdata.dekuan.org/docs)
+Please view [documentation](http://vdata.ioext.org/docs)
 
 
 

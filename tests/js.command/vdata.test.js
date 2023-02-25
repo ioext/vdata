@@ -99,7 +99,7 @@ describe( "vdata", function()
 			VDATA.Get
 			(
 				{
-					'url'	: 'http://www.dekuan.org/',
+					'url'	: 'http://www.ioext.org/',
 					'async'	: false
 				},
 				function( oResponse )

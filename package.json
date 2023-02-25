@@ -1,15 +1,15 @@
 {
 	"name"		: "vdata",
 	"version"	: "1.0.7",
-	"author"	: "Liu QiXing <liuqixing@dekuan.org>",
+	"author"	: "Liu QiXing <liuqixing@ioext.org>",
 	"description"	: "JavaScript client of VDATA protocol. VDATA protocol is the best protocol for calling or responding a HTTP/HTTPS service.",
-	"homepage"	: "http://vdata.dekuan.org/",
+	"homepage"	: "http://vdata.ioext.org/",
 	"main"		: "vdata.js",
 	"license"	: "MIT",
 	"repository"	:
 	{
 		"type"	: "git",
-		"url"	: "https://github.com/dekuan/vdata.git"
+		"url"	: "https://github.com/ioext/vdata.git"
 	},
 	"files"		:
 	[
@@ -23,7 +23,7 @@
 	},
 	"keywords"	:
 	[
-		"dekuan",
+		"ioext",
 		"vdata",
 		"rcp",
 		"http",

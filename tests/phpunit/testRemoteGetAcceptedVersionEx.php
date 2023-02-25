@@ -1,11 +1,11 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 /***
  *	Class testRemoteGetAcceptedVersionEx
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class testRemoteGetAcceptedVersionEx extends \PHPUnit\Framework\TestCase
 {

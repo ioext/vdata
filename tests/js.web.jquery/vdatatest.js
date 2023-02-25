@@ -84,7 +84,7 @@ describe( "vdata", function()
 			var vCall = VDATA.Get
 			(
 				{
-					'url'	: 'http://vdata.dekuan.org/api/vdata/',
+					'url'	: 'http://vdata.ioext.org/api/vdata/',
 					'async'	: false,
 					'data'	: { 'get1' : 2, 'get2' : 3 }
 				},
@@ -103,7 +103,7 @@ describe( "vdata", function()
 			var vCall = VDATA.Post
 			(
 				{
-					'url'	: 'http://vdata.dekuan.org/api/vdata/',
+					'url'	: 'http://vdata.ioext.org/api/vdata/',
 					'async'	: false,
 					'data'	: { 'post1' : 2, 'post2' : 3 }
 				},
@@ -122,7 +122,7 @@ describe( "vdata", function()
 		//	//VDATA.Put
 		//	//(
 		//	//	{
-		//	//		'url'	: 'http://vdata-loc.dekuan.org/api/vdata/',
+		//	//		'url'	: 'http://vdata-loc.ioext.org/api/vdata/',
 		//	//		'async'	: true,
 		//	//		'data'	: { 'post1' : 2, 'post2' : 3 }
 		//	//	},
@@ -135,7 +135,7 @@ describe( "vdata", function()
 		//
 		//	$.ajax({
 		//		type: "PUT",
-		//		url: "http://vdata-loc.dekuan.org/api/vdata/",
+		//		url: "http://vdata-loc.ioext.org/api/vdata/",
 		//		data: "1",
 		//		crossDomain: true,
 		//		dataType: "json",
@@ -156,7 +156,7 @@ describe( "vdata", function()
 			var vCall = VDATA.Get
 			(
 				{
-					'url'	: 'http://vdata.dekuan.org/api/vdata/',
+					'url'	: 'http://vdata.ioext.org/api/vdata/',
 					'async'	: false,
 					'data'	: { 'get1' : 2, 'get2' : 3 }
 				}
@@ -182,7 +182,7 @@ describe( "vdata", function()
 			var vCall = VDATA.Post
 			(
 				{
-					'url'	: 'http://vdata.dekuan.org/api/vdata/',
+					'url'	: 'http://vdata.ioext.org/api/vdata/',
 					'async'	: false,
 					'data'	: { 'post1' : 2, 'post2' : 3 }
 				}

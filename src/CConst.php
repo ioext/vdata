@@ -1,11 +1,11 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 /***
  *	Class CConst
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class CConst
 {

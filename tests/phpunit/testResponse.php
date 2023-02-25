@@ -1,17 +1,17 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 
-use dekuan\vdata\CConst;
-use dekuan\vdata\CRequest;
-use dekuan\vdata\CResponse;
+use ioext\vdata\CConst;
+use ioext\vdata\CRequest;
+use ioext\vdata\CResponse;
 
 
 /***
  *	Class testResponse
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class testResponse extends \PHPUnit\Framework\TestCase
 {

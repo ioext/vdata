@@ -1,6 +1,6 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 /**
@@ -11,7 +11,7 @@ class CCors
 	//
 	//	constants
 	//
-	const CORS_DEFAULT_DOMAIN	= '.dekuan.org';	//	default cors domain
+	const CORS_DEFAULT_DOMAIN	= '.ioext.org';	//	default cors domain
 
 	//
 	//	Domains for Cross-Origin Resource Sharing
@@ -83,8 +83,8 @@ class CCors
 						0 == strcasecmp( $sCfgDomain, substr( $sRefHost, -1 * $nDmLength ) ) )
 					{
 						//
-						//	ref:	www.dekuan.org
-						//	cfg:	dekuan.org
+						//	ref:	www.ioext.org
+						//	cfg:	ioext.org
 						//
 						$bRet = true;
 						break;
@@ -94,8 +94,8 @@ class CCors
 						0 == strcasecmp( $sRefHost, substr( $sCfgDomain, 1 ) ) )
 					{
 						//
-						//	ref:	dekuan.org
-						//	cfg:	.dekuan.org
+						//	ref:	ioext.org
+						//	cfg:	.ioext.org
 						//
 						$bRet = true;
 						break;
@@ -105,8 +105,8 @@ class CCors
 						if ( fnmatch( $sCfgDomain, $sRefHost ) )
 						{
 							//
-							//	ref:	msgsender.service.dekuan.org
-							//	cfg:	*.service.dekuan.org
+							//	ref:	msgsender.service.ioext.org
+							//	cfg:	*.service.ioext.org
 							//
 							$bRet = true;
 							break;

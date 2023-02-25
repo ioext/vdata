@@ -1,9 +1,9 @@
 {
 	"name"		: "vdata",
-	"homepage"	: "http://vdata.dekuan.org/",
+	"homepage"	: "http://vdata.ioext.org/",
 	"authors"	:
 	[
-		"liuqixing <liuqixing@dekuan.org>"
+		"liuqixing <liuqixing@ioext.org>"
 	],
 	"description"	: "JavaScript client of vdata protocol. vdata protocol is the best protocol for calling or responding a HTTP/HTTPS service.",
 	"main"		:
@@ -12,7 +12,7 @@
 	],
 	"keywords"	:
 	[
-		"dekuan",
+		"ioext",
 		"vdata",
 		"rcp",
 		"http",

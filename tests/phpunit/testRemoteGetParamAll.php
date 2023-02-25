@@ -1,11 +1,11 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 /***
  *	Class testRemoteGetParamAll
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class testRemoteGetParamAll extends \PHPUnit\Framework\TestCase
 {
@@ -30,7 +30,7 @@ class testRemoteGetParamAll extends \PHPUnit\Framework\TestCase
 	{
 		echo "\r\ntestGetParamAll\r\n";
 
-		print_r( \dekuan\vdata\CRemote::GetParamAll() );
-		print_r( \dekuan\vdata\CRemote::GetParamAll( $this->m_arrInput ) );
+		print_r( \ioext\vdata\CRemote::GetParamAll() );
+		print_r( \ioext\vdata\CRemote::GetParamAll( $this->m_arrInput ) );
 	}
 }

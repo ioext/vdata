@@ -1,17 +1,17 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 
-use dekuan\vdata\CConst;
-use dekuan\vdata\CRequest;
-use dekuan\delib\CLib;
+use ioext\vdata\CConst;
+use ioext\vdata\CRequest;
+use ioext\delib\CLib;
 
 
 /***
  *	Class testRequestRaw
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class testRequestRaw extends \PHPUnit\Framework\TestCase
 {

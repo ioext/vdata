@@ -1,6 +1,6 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
 
 class CVDataException extends \Exception

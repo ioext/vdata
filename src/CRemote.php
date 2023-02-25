@@ -1,15 +1,15 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
-use dekuan\vdata\CConst;
-use dekuan\delib\CLib;
+use ioext\vdata\CConst;
+use ioext\delib\CLib;
 
 
 
 /***
  *	Class CRemote
- *	@package dekuan\vdata
+ *	@package ioext\vdata
  */
 class CRemote
 {
@@ -63,7 +63,7 @@ class CRemote
 			return '';
 		}
 
-		//	Accept: application/dekuan+json+version:%s
+		//	Accept: application/ioext+json+version:%s
 		$sRet		= '';
 		$sAccept	= '';
 		foreach ( $arrAcceptList as $sItem )

@@ -19,7 +19,7 @@ angular.module( "cpApp", [ 'vdata' ], function( $interpolateProvider )
 		nCall	= vdataFactory.Get
 		(
 			{
-				'url'	: 'http://vdata.dekuan.org/api/vdata/',
+				'url'	: 'http://vdata.ioext.org/api/vdata/',
 				'async'	: false,
 				'data'	: { 'get_hour' : (new Date).getHours(), 'get2' : 3 }
 			},
@@ -56,7 +56,7 @@ angular.module( "cpApp", [ 'vdata' ], function( $interpolateProvider )
 		nCall	= vdataFactory.Post
 		(
 			{
-				'url'	: 'http://vdata.dekuan.org/api/vdata/',
+				'url'	: 'http://vdata.ioext.org/api/vdata/',
 				'async'	: false,
 				'data'	: { 'post_hour' : (new Date).getHours(), 'post2' : 200 }
 			},
@@ -93,7 +93,7 @@ angular.module( "cpApp", [ 'vdata' ], function( $interpolateProvider )
 		nCall	= vdataFactory.Put
 		(
 			{
-				'url'	: 'http://vdata.dekuan.org/api/vdata/',
+				'url'	: 'http://vdata.ioext.org/api/vdata/',
 				'async'	: false,
 				'data'	: { 'post_hour' : (new Date).getHours(), 'post2' : 200 }
 			},

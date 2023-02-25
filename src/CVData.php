@@ -1,9 +1,9 @@
 <?php
 
-namespace dekuan\vdata;
+namespace ioext\vdata;
 
-use dekuan\vdata\CConst;
-use dekuan\delib\CLib;
+use ioext\vdata\CConst;
+use ioext\delib\CLib;
 use Symfony\Component\HttpFoundation\Response;
 
 

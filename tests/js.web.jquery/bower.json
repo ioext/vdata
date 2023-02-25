@@ -2,7 +2,7 @@
 	"name"		: "vdata works with jQuery",
 	"description"	: "Awesome testing code for vdata of jQuery edition.",
 	"version"	: "1.0.0",
-	"homepage"	: "http://vdata.dekuan.org/",
+	"homepage"	: "http://vdata.ioext.org/",
 	"license"	: "MIT",
 	"private"	: true,
 	"dependencies"	:
