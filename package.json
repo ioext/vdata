@@ -1,7 +1,7 @@
 {
 	"name"		: "vdata",
 	"version"	: "1.0.7",
-	"author"	: "Liu QiXing <liuqixing@ioext.org>",
+	"author"	: "Ioext <ioext@ioext.org>",
 	"description"	: "JavaScript client of VDATA protocol. VDATA protocol is the best protocol for calling or responding a HTTP/HTTPS service.",
 	"homepage"	: "http://vdata.ioext.org/",
 	"main"		: "vdata.js",
