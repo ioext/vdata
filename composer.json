@@ -32,10 +32,10 @@
 	},
 	"autoload" :
 	{
-		"psr-4" : { "ioext\\" : "src" }
+		"psr-4" : { "ioext\\vdata\\" : "src/" }
 	},
 	"autoload-dev" :
 	{
-		"psr-4" : { "ioext\\" : "src" }
+		"psr-4" : { "ioext\\vdata\\" : "src/" }
 	}
 }
